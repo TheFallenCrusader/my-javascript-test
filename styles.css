@@ -1,0 +1,32 @@
+h1 {
+    color: white;
+    text-align: center;
+    transition-duration: 200ms;
+}
+
+h1:hover {
+    scale: 1.1;
+    color: yellow;
+}
+            body {
+  background: repeating-linear-gradient(45deg, #606dbc, #606dbc 40px, #465298 40px, #465298 80px) ;
+  background-size: 400% 400%;
+  animation: gradient 100s linear infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+button {
+    position: absolute;
+    bottom: 1;
+    transition-duration: 200ms;
+}
+
+button:hover {
+    scale: 1.1;
+}
