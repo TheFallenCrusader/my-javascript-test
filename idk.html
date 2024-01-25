@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
     <body>
-            <button class="ResetBtn" onclick='reset()'>delete all my hard work?</button>
+            <button class="ResetBtn" onclick='reset()' title="please..">delete all my hard work?</button>
         <div><h1 id="txtlol">Hi, welcome to my webpage!!</h1></div>
     <script>
         function reset() {
@@ -14,8 +14,17 @@
                 document.write('what..??<br>')
             },1000);
             setTimeout(()=>{
-                document.write("why...? how?? THIS SHOULDN'T BE POSSIBLE WHAT DID YOU DO!?");
-            },3000);
+                document.write("why...? how?<br>");
+            },1500);
+            setTimeout(()=>{
+                document.write("THIS SHOULDN'T BE POSSIBLE WHAT DID YOU DO!?<br>")
+            }, 2000);
+            setTimeout(()=>{
+                document.write("WHAT DID YOU DO<br>")
+            }, 2500);
+            setTimeout(()=>{
+                document.write("FIX IT NOW(refresh the page<br>")
+            }, 3000);
         }
     </script>
     </body>
