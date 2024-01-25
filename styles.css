@@ -13,6 +13,7 @@ h1:hover {
   background-size: 400% 400%;
   animation: gradient 100s linear infinite;
   height: 100vh;
+  overflow-y: hidden;
 }
 
 @keyframes gradient {
@@ -29,8 +30,4 @@ button {
 
 button:hover {
     scale: 1.1;
-}
-
-html{
-overflow-y: hidden;
 }
