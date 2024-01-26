@@ -56,12 +56,15 @@
                 document.write('>Attemp to restore failed. Rebooting...<br>')
             },4500)
             setTimeout(()=>{
-                document.write('<button type="button" onclick="document.write(location.reload())">>confirm reboot</button>')
+                document.write('<button type="button" onclick="reboot()">>confirm reboot</button>')
             },5100)
-            setTimeout(()=>{
-                document.write('window.alert("PLEASE DONT PRESS THE BUTTON AGAIN.")')
-            },5700)
             }
+
+    function reboot() {
+        location.reload()
+        alert("PLEASE DONT PRESS THE BUTTON AGAIN.")
+        
+    }
         
     </script>
         
